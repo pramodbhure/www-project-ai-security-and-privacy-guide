@@ -2,10 +2,6 @@ baseURL: https://owaspai.org/
 languageCode: en-us
 title: AI Exchange
 
-author:
-  name: OWASP AI Exchange
-  email: info@owaspai.org
-
 outputs:
   home:
     - HTML
@@ -23,6 +19,20 @@ params:
   author:
     name: OWASP AI Exchange
     email: info@owaspai.org
+  og_image: https://owaspai.org/images/aix-og-logo.jpg
+  og_description: Comprehensive guidance and alignment on how to protect AI against security threats - by professionals, for professionals.
+  navbar:
+    displayTitle: false
+    displayLogo: true
+    logo:
+      path: images/Owasp-AI-Exchange-Logo.png
+      dark: images/Owasp-AI-Exchange-Logo.png
+      link: /
+      width: "Auto"
+      height: 48
+  editURL:
+    enable: true
+    base: "https://github.com/OWASP/www-project-ai-security-and-privacy-guide/blob/main/content/ai_exchange/content"
   # Collaboration partner logos for marquee (add logo paths to static/images/collaborators/ when available)
   collaborationPartners:
     - name: "SANS Institute"
@@ -55,20 +65,6 @@ params:
     - name: "Alan Turing Institute"
       logo: "/images/collaborators/TheAlanTurningInstitue_logo.svg"
       url: "https://www.turing.ac.uk/"
-  og_image: https://owaspai.org/images/aix-og-logo.jpg
-  og_description: Comprehensive guidance and alignment on how to protect AI against security threats - by professionals, for professionals.
-  navbar:
-    displayTitle: false
-    displayLogo: true
-    logo:
-      path: images/Owasp-AI-Exchange-Logo.png
-      dark: images/Owasp-AI-Exchange-Logo.png
-      link: /
-      width: "Auto"
-      height: 48
-  editURL:
-    enable: true
-    base: "https://github.com/OWASP/www-project-ai-security-and-privacy-guide/blob/main/content/ai_exchange/content"
   theme:
     # light | dark | system
     default: system
